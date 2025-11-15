@@ -18,3 +18,39 @@ window.addEventListener('scroll', function () {
   if (this.window.pageYOffset > 0) return navbar.classList.add('active');
   return navbar.classList.remove('active');
 });
+
+ScrollReveal().reveal('.navbar', {
+  origin: 'top',
+  duration: 4000,
+  distance: '100%'
+});
+
+ScrollReveal().reveal('#header', {
+  origin: 'left',
+  duration: 4000,
+  distance: '20%'
+});
+
+ScrollReveal().reveal('#about', {
+  origin: 'rigth',
+  duration: 2000,
+  distance: '20%'
+});
+
+ScrollReveal().reveal('#frentes', {
+  origin: 'left',
+  duration: 2000,
+  distance: '20%'
+});
+
+ScrollReveal().reveal('#coleta', {
+  origin: 'rigth',
+  duration: 2000,
+  distance: '20%'
+});
+
+ScrollReveal().reveal('#footer', {
+  origin: 'top',
+  duration: 3000,
+  distance: '20%'
+});
