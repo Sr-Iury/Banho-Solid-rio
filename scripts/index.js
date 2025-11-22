@@ -49,8 +49,15 @@ ScrollReveal().reveal('#coleta', {
   distance: '20%'
 });
 
+ScrollReveal().reveal('#pontos', {
+  origin: 'left',
+  duration: 2000,
+  distance: '20%'
+});
+
 ScrollReveal().reveal('#footer', {
   origin: 'top',
   duration: 3000,
   distance: '20%'
 });
+

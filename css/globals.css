@@ -14,6 +14,7 @@ html {
 body {
   font-size: 1.6rem;
   margin-top: 15rem;
+    overflow-x: hidden;
 }
 
 ul {
@@ -113,6 +114,7 @@ p:not(:last-of-type),
 @media only screen and (max-width: 768px) {
   html {
     font-size: 58%;
+    overflow-x: hidden;
   }
 
   .max-width {
@@ -123,5 +125,8 @@ p:not(:last-of-type),
 @media only screen and (max-width: 425px) {
   h1 {
     font-size: 4.2rem;
+  }
+    html {
+    overflow-x: hidden;
   }
 }
